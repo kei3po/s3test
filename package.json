@@ -1,0 +1,19 @@
+{
+  "name": "s3test",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "build": "babel app.js -d .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "keith nielsen",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.2.32"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.8.0",
+    "babel-preset-es2015": "^6.6.0"
+  }
+}
