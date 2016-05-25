@@ -1,2 +1,2 @@
 #!/bin/bash
-docker build -t coredev/s3test:v3 .
+docker build --rm=true -t coredev/s3test:v3 .

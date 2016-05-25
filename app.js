@@ -2,7 +2,7 @@ import * as aws from "aws-sdk";
 
 var storageParams = {
   params: {
-    Bucket: "coredev-dynaimage-repository",
+    Bucket: "coredev-dynaimage-repository/dev-env",
     Key: "dev-env/MoonHaloDonnellyMillsWA_2005_SeanMcClean.jpg"
   }
 };
